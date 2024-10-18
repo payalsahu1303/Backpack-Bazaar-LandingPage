@@ -1,0 +1,109 @@
+/* Footer.module.css */
+.footer {
+  background-color: #D9EAD3; /* Pistachio green */
+  padding: 50px 0;
+  color: #666;
+  text-align: center;
+  position: relative;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footerLeft {
+  text-align: left;
+}
+
+.footerBrand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666; /* Darker pistachio */
+  margin-bottom: 10px;
+}
+
+.footerDescription {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+  width: 250px;
+}
+
+.footerSocial {
+  margin-top: 20px;
+}
+
+.socialIcon {
+  margin-right: 15px;
+  color: #2E7D32;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+  color: #1B5E20;
+}
+
+.footerRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerColumn {
+  margin-right: 40px;
+}
+
+.footerColumn h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2E7D32;
+  margin-bottom: 10px;
+}
+
+.footerColumn a {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.footerColumn a:hover {
+  color: #1B5E20;
+}
+
+.footerCopy {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLeft {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footerRight {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerColumn {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

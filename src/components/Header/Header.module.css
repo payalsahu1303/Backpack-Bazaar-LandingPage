@@ -1,0 +1,40 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.offers {
+    color: #007B7B;
+    font-weight: 600;
+}
+
+.shopNowBtn {
+    padding: 10px 20px;
+    background-color: #007B7B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.shopNowBtn:hover {
+    background-color: #005f5f;
+}

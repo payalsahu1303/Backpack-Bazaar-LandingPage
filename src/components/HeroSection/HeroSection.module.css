@@ -1,0 +1,149 @@
+/* Hero Section */
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 80px;
+  background-color: #f8f8f8;
+
+}
+
+.textContainer {
+  max-width: 45%;
+}
+
+.textContainer h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+}
+
+.textContainer p {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  padding: 15px 30px;
+  background-color: #007B7B;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 30px; /* Adjust space between button and trusted section */
+}
+
+.ctaButton:hover {
+  background-color: #005f5f;
+}
+
+/* Hero Image */
+.heroImage {
+  padding-right: 40px;
+  max-width: 40%;
+}
+
+/* Trusted By Section */
+.trustedBy {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.trustedBy p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 10px; /* Tighten the space between text and logos */
+}
+
+.trustedLogos {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.trustedLogos img {
+  margin-right: 15px; /* Reduced space between logos */
+  max-width: 90px; /* Make the logos smaller */
+  opacity: 0.8;
+}
+
+.trustedLogos img:last-child {
+  margin-right: 0; /* Remove margin for the last logo */
+}
+
+.trustedLogos img:hover {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* What We Offer Section */
+.whatWeOffer {
+  background-color: #f8f8f8;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.whatWeOffer h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.offerDescription {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.offerCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  max-height: 60px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.cardLink {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007B7B;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.cardLink:hover {
+  color: #005f5f;
+}
